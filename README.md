@@ -1,6 +1,6 @@
 # CDC Chronic Disease Indicators — SQL Analytics Pipeline
 
-An end-to-end SQL project transforming 50,000+ raw CDC BRFSS records into a 
+An SQL project transforming 50,000+ raw CDC BRFSS records into a 
 normalized star-schema database and extracting public health insights on U.S. 
 obesity and physical activity trends.
 
