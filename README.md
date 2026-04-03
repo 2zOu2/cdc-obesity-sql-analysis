@@ -5,6 +5,16 @@ normalized star-schema database and extracting public health insights on U.S.
 obesity and physical activity trends.
 
 ## Project Structure
+cdc-obesity-sql-analysis/
+├── final_project_DATA521.sql   # Full pipeline: DDL, ETL, and all queries
+├── results/
+│   ├── q1_obesity_by_state.csv
+│   ├── q2_gender_disparity.csv
+│   ├── q3_national_outliers.csv
+│   ├── q4_data_coverage.csv
+│   └── q5_high_risk_view.csv
+└── README.md
+
 ## Database Design
 
 Star schema with 1 fact table and 3 dimension tables built in MySQL 8.0:
